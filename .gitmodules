@@ -1,0 +1,3 @@
+[submodule "ext/spiped/spiped-source"]
+	path = ext/spiped/spiped-source
+	url = git@github.com:stvp/spiped.git
