@@ -15,10 +15,6 @@ all:
 	done
 
 install: all
-	export BINDIR=$${BINDIR:-${BINDIR_DEFAULT}};	\
-	for D in ${PROGS}; do				\
-		( cd $${D} && ${MAKE} install ) || exit 2;	\
-	done
 
 clean:
 	rm -f cpusupport-config.h
