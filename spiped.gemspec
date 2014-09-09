@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "spiped"
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.authors = ["Brian P O'Rourke"]
   s.date = "2014-09-08"
@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email = "bpo@somnambulance.net"
   s.extensions = ["ext/spiped/extconf.rb"]
 
-  s.files = ["ext/spiped/extconf.rb", "lib/spiped.rb"]
+  s.files = Dir[ "ext/**/*" ] + [ "lib/spiped.rb" ]
   s.homepage = 'https://github.com'
 end
 
